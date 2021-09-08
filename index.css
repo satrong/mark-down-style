@@ -1,5 +1,6 @@
 /* the container's className */
 /* pre background color */
+/* inline `code`  */
 /* heading font size */
 .md-style {
   padding: 8px;
@@ -278,4 +279,7 @@
   word-wrap: normal;
   background-color: initial;
   border: 0;
+}
+.md-style code:not([class]) {
+  color: #b8341e;
 }
