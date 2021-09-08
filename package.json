@@ -1,0 +1,29 @@
+{
+  "name": "mark-down-style",
+  "version": "0.0.2",
+  "description": "Markdown Style.",
+  "main": "index.css",
+  "scripts": {
+    "build": "sass --no-source-map --style=compressed scss/index.scss index.css",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:satrong/md-css.git"
+  },
+  "keywords": [
+    "markdown style",
+    "markdown css",
+    "markdown theme"
+  ],
+  "files": [
+    "index.css",
+    "scss/**/*.scss"
+  ],
+  "devDependencies": {
+    "chokidar": "^3.5.2",
+    "sass": "^1.39.0"
+  },
+  "author": "satrong <satrong@163.com>",
+  "license": "ISC"
+}
