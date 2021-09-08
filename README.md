@@ -13,14 +13,14 @@ npm i mark-down-style
 $containerClassName:          md-style !default;
 
 /* pre background color */
-$pre-bg-color:                #2c2d2d !default;
+$pre-bg-color:                #333 !default;
 
 /* heading font size */
-$base-font-size:              1rem !default;
-$h1-font-size:                $base-font-size * 2.5 !default;
-$h2-font-size:                $base-font-size * 2 !default;
-$h3-font-size:                $base-font-size * 1.75 !default;
-$h4-font-size:                $base-font-size * 1.5 !default;
-$h5-font-size:                $base-font-size * 1.25 !default;
-$h6-font-size:                $base-font-size !default;
+$base-font-size:              12px !default;
+$h1-font-size:                $base-font-size + 2 * 6  !default;
+$h2-font-size:                $base-font-size + 2 * 5 !default;
+$h3-font-size:                $base-font-size + 2 * 4 !default;
+$h4-font-size:                $base-font-size + 2 * 3 !default;
+$h5-font-size:                $base-font-size + 2 * 2 !default;
+$h6-font-size:                $base-font-size + 2 * 1 !default;
 ```

@@ -1,10 +1,11 @@
 {
   "name": "mark-down-style",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Markdown Style.",
   "main": "index.css",
   "scripts": {
-    "build": "sass --no-source-map --style=compressed scss/index.scss index.css",
+    "dev": "sass --watch --no-source-map scss/index.scss index.css",
+    "build": "sass --no-source-map scss/index.scss index.css",
     "prepublish": "npm run build"
   },
   "repository": {

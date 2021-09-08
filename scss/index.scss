@@ -1,6 +1,7 @@
 @import './variables';
 
 .#{$containerClassName} {
+  padding: 8px;
   font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light,
     'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   &:first-child {
@@ -70,19 +71,18 @@
   h4,
   h5,
   h6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-weight: bold;
     line-height: 1.25;
   }
   h1 {
     font-size: $h1-font-size;
-    margin: 0.67em 0;
   }
   h1,
   h2 {
     padding-bottom: 0.3em;
-    border-bottom: 1px solid #eaecef;
+    border-bottom: 1px solid #ddd;
   }
   h2 {
     font-size: $h2-font-size;
@@ -102,8 +102,9 @@
   }
 
   p {
-    margin-top: 0;
-    margin-bottom: 0.625rem;
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1.6;
   }
   blockquote {
     margin: 0;
@@ -153,7 +154,6 @@
   details,
   dl,
   ol,
-  p,
   pre,
   table,
   ul {
@@ -265,12 +265,10 @@
   }
   pre {
     word-wrap: normal;
-    padding: 16px;
-    overflow: auto;
-    font-size: 85%;
     line-height: 1.45;
     background-color: $pre-bg-color;
     border-radius: 3px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
   }
   pre code {
     display: inline;
