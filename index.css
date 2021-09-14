@@ -35,15 +35,12 @@
 .md-style code,
 .md-style kbd,
 .md-style pre {
-  font-family: monospace, monospace;
+  font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
   font-size: 1em;
 }
 .md-style [type=checkbox] {
   box-sizing: border-box;
   padding: 0;
-}
-.md-style * {
-  box-sizing: border-box;
 }
 .md-style input {
   font-family: inherit;
@@ -56,7 +53,6 @@
 .md-style kbd {
   display: inline-block;
   padding: 3px 5px;
-  font: 11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   line-height: 10px;
   color: #444d56;
   vertical-align: middle;
@@ -129,7 +125,6 @@
 }
 .md-style code,
 .md-style pre {
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   font-size: 12px;
   margin-top: 0;
   margin-bottom: 0;
@@ -188,14 +183,8 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.md-style li {
-  word-wrap: break-all;
-}
 .md-style li > p {
   margin-top: 16px;
-}
-.md-style li + li {
-  margin-top: 0.25em;
 }
 .md-style dl {
   padding: 0;
@@ -258,7 +247,6 @@
   margin: 0;
   font-size: 100%;
   word-break: normal;
-  white-space: pre;
   background: transparent;
   border: 0;
 }
