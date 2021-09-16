@@ -1,6 +1,6 @@
 {
   "name": "mark-down-style",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Markdown Style.",
   "main": "index.css",
   "scripts": {
