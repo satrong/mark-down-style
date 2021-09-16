@@ -30,7 +30,7 @@
   outline-width: 0;
 }
 .md-style strong {
-  font-weight: 600;
+  font-weight: bold;
 }
 .md-style code,
 .md-style kbd,
@@ -194,7 +194,7 @@
   margin-top: 16px;
   font-size: 1em;
   font-style: italic;
-  font-weight: 600;
+  font-weight: bold;
 }
 .md-style dl dd {
   padding: 0 16px;
@@ -208,7 +208,7 @@
   overflow: auto;
 }
 .md-style table th {
-  font-weight: 600;
+  font-weight: bold;
 }
 .md-style table td,
 .md-style table th {
