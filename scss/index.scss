@@ -73,7 +73,7 @@
   h5,
   h6 {
     margin-top: 30px;
-    margin-bottom: 16px;
+    margin-bottom: $part-space;
     font-weight: bold;
     line-height: 1.25;
   }
@@ -126,11 +126,6 @@
   dd {
     margin-left: 0;
   }
-  code,
-  pre {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
   input::-webkit-inner-spin-button,
   input::-webkit-outer-spin-button {
     margin: 0;
@@ -148,10 +143,9 @@
   }
   details,
   dl,
-  pre,
   table {
     margin: 0;
-    padding-bottom: 16px;
+    padding-bottom: $part-space;
   }
   hr {
     height: 0.25em;
@@ -187,21 +181,21 @@
     margin-bottom: 0;
   }
   li > p {
-    margin-top: 16px;
+    margin-top: $part-space;
   }
   dl {
     padding: 0;
   }
   dl dt {
     padding: 0;
-    margin-top: 16px;
+    margin-top: $part-space;
     font-size: 1em;
     font-style: italic;
     font-weight: bold;
   }
   dl dd {
-    padding: 0 16px;
-    margin-bottom: 16px;
+    padding: 0 $part-space;
+    margin-bottom: $part-space;
   }
   table {
     border-spacing: 0;
@@ -238,6 +232,12 @@
   img[align='left'] {
     padding-right: 20px;
   }
+
+  code,
+  pre {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   code {
     padding: 0.2em 0.4em;
     margin: 0;
@@ -245,16 +245,8 @@
     background-color: rgba(27, 31, 35, 0.05);
     border-radius: 3px;
   }
-  pre > code {
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-    word-break: normal;
-    background: transparent;
-    border: 0;
-  }
   pre {
-    padding: 1em;
+    margin-bottom: $part-space;
     word-wrap: normal;
     line-height: 1.45;
     background-color: $pre-bg-color;
@@ -262,19 +254,16 @@
     border-radius: 3px;
     box-shadow: 0 2px 10px rgb(0 0 0 / #{$pre-shadow-opacity});
     box-shadow: 0 2px 10px rgb(0 0 0 / var(--pre-shadow-opacity));
-  }
-  pre code {
-    font-size: $pre-font-size;
-    font-size: var(--pre-font-size);
-    display: inline;
-    max-width: auto;
-    padding: 0 !important;
-    margin: 0;
-    overflow: visible;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: initial;
-    border: 0;
+
+    > code {
+      font-size: $pre-font-size;
+      font-size: var(--pre-font-size);
+      padding: 1em;
+      word-break: normal;
+      background: transparent;
+      border: 0;
+      overflow: auto;
+    }
   }
   code:not([class]) {
     color: $code-font-color;

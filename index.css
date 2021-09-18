@@ -124,11 +124,6 @@
 .md-style dd {
   margin-left: 0;
 }
-.md-style code,
-.md-style pre {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .md-style input::-webkit-inner-spin-button,
 .md-style input::-webkit-outer-spin-button {
   margin: 0;
@@ -146,7 +141,6 @@
 }
 .md-style details,
 .md-style dl,
-.md-style pre,
 .md-style table {
   margin: 0;
   padding-bottom: 16px;
@@ -236,6 +230,11 @@
 .md-style img[align=left] {
   padding-right: 20px;
 }
+.md-style code,
+.md-style pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .md-style code {
   padding: 0.2em 0.4em;
   margin: 0;
@@ -243,16 +242,8 @@
   background-color: rgba(27, 31, 35, 0.05);
   border-radius: 3px;
 }
-.md-style pre > code {
-  padding: 0;
-  margin: 0;
-  font-size: 100%;
-  word-break: normal;
-  background: transparent;
-  border: 0;
-}
 .md-style pre {
-  padding: 1em;
+  margin-bottom: 16px;
   word-wrap: normal;
   line-height: 1.45;
   background-color: #333;
@@ -261,18 +252,14 @@
   box-shadow: 0 2px 10px rgb(0 0 0/50%);
   box-shadow: 0 2px 10px rgb(0 0 0/var(--pre-shadow-opacity));
 }
-.md-style pre code {
+.md-style pre > code {
   font-size: 12px;
   font-size: var(--pre-font-size);
-  display: inline;
-  max-width: auto;
-  padding: 0 !important;
-  margin: 0;
-  overflow: visible;
-  line-height: inherit;
-  word-wrap: normal;
-  background-color: initial;
+  padding: 1em;
+  word-break: normal;
+  background: transparent;
   border: 0;
+  overflow: auto;
 }
 .md-style code:not([class]) {
   color: #b8341e;

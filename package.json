@@ -1,6 +1,6 @@
 {
   "name": "mark-down-style",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Markdown Style.",
   "main": "index.css",
   "scripts": {
@@ -10,8 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:satrong/md-css.git"
+    "url": "git@github.com:satrong/mark-down-style.git"
   },
+  "homepage": "https://github.com/satrong/mark-down-style",
   "keywords": [
     "markdown style",
     "markdown css",
