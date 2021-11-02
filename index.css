@@ -8,7 +8,7 @@
   --pre-font-size: 12px;
   --code-font-color: #b8341e;
   padding: 8px;
-  font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, "PingFang SC", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Microsoft Yahei", "PingFang SC", "Avenir", "Segoe UI", "Hiragino Sans GB", STHeiti, "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans-serif;
 }
 .md-style:first-child {
   margin-top: 0 !important;
